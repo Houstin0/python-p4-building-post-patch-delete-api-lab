@@ -126,7 +126,7 @@ def delete_baked_goods(id):
 
     response_body={
         "delete_successful": True,
-        "message": "Bakery deleted."
+        "message": "Baked good deleted."
     }
 
     response=make_response(
